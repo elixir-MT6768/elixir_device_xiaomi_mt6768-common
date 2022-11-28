@@ -37,4 +37,6 @@ def OTA_InstallEnd(info):
   AddImage(info, "vbmeta_system.img", "/dev/block/by-name/vbmeta_system")
   AddImage(info, "vbmeta_vendor.img", "/dev/block/by-name/vbmeta_vendor")
   AddImage(info, "dtbo.img", "/dev/block/by-name/dtbo")
+  # Recovery image is added into the zip by default
+  info.script.AppendExtra('package_extract_file("recovery.img", "/dev/block/by-name/recovery");')
   return
