@@ -225,13 +225,7 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.mt6768
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayMT6768 \
