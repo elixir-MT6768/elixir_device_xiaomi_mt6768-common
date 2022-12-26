@@ -1,7 +1,0 @@
-# Pixel identification
-ro.build.fingerprint=google/redfin/redfin:13/TQ1A.221205.011/9244662:user/release-keys
-ro.product.manufacturer=Google
-ro.product.brand=google
-ro.product.name=redfin
-ro.product.model=Pixel 5
-ro.product.device=redfin
